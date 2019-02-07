@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<configs>
+<append xpath="/items/item[@name='unlockBookMaster']">
+			<property name="Stacknumber" value="500"/>
+		</append>
+</configs>

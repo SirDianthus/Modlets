@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configs>
+<append xpath="/recipes">
+<recipe name="jailDoor" count="1" tooltip="ttScrapMetalIron" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="25"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="3"/>
+</recipe>
+</append>
+</configs>

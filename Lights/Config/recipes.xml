@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<configs>
+    <append xpath="/recipes">
+        <recipe name="streetLight" count="1" craft_area="workbench">
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceForgedIron" count="100"/>
+            <ingredient name="resourceBrokenGlass" count="30"/>
+        </recipe>
+ 
+        <recipe name="porchLight" count="1" craft_area="workbench">
+            <ingredient name="resourceElectricParts" count="2"/>
+            <ingredient name="resourceScrapIron" count="20"/>
+        </recipe>
+ 
+        <recipe name="brassPorchLight" count="1" craft_area="workbench">
+            <ingredient name="resourceElectricParts" count="2"/>
+            <ingredient name="resourceBrokenGlass" count="3"/>
+            <ingredient name="resourceScrapBrass" count="20"/>
+        </recipe>
+ 
+        <recipe name="lightBulb" count="1" craft_area="workbench">
+            <ingredient name="resourceElectricParts" count="1"/>
+            <ingredient name="resourceScrapIron" count="10"/>
+            <ingredient name="resourceBrokenGlass" count="1"/>
+        </recipe>
+ 
+        <recipe name="domeLight" count="1" craft_area="workbench">
+            <ingredient name="resourceElectricParts" count="2"/>
+            <ingredient name="resourceScrapIron" count="20"/>
+        </recipe>
+ 
+        <recipe name="ceilingLightMetal" count="1" craft_area="workbench">
+            <ingredient name="resourceElectricParts" count="2"/>
+            <ingredient name="resourceForgedIron" count="10"/>
+        </recipe>
+ 
+        <recipe name="ceilingLightGlass" count="1" craft_area="workbench">
+            <ingredient name="resourceElectricParts" count="2"/>
+            <ingredient name="resourceScrapIron" count="20"/>
+            <ingredient name="resourceBrokenGlass" count="5"/>
+        </recipe>
+ 
+        <recipe name="ceilingLightStrip" count="1" craft_area="workbench">
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceForgedIron" count="2"/>
+            <ingredient name="resourceScrapPolymers" count="4"/>
+        </recipe>
+ 
+        <recipe name="flashLightProp" count="1" craft_area="workbench">
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceScrapIron" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+    </append>
+</configs>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+	<configs>
+		<set xpath="/blocks/block[@name='forge']/property[@name='Stacknumber' and @value='1']/@value">20</set>
+		<set xpath="/blocks/block[@name='workbench']/property[@name='Stacknumber' and @value='1']/@value">20</set>
+		<set xpath="/blocks/block[@name='cementMixer']/property[@name='Stacknumber' and @value='1']/@value">20</set>
+		<set xpath="/blocks/block[@name='chemistryStation']/property[@name='Stacknumber' and @value='1']/@value">20</set>
+		<set xpath="/blocks/block[@name='campfire']/property[@name='Stacknumber' and @value='1']/@value">20</set>
+		<set xpath="/blocks/block[@name='generatorbank']/property[@name='Stacknumber' and @value='1']/@value">20</set>
+		<set xpath="/blocks/block[@name='solarbank']/property[@name='Stacknumber' and @value='1']/@value">20</set>
+		<set xpath="/blocks/block[@name='batterybank']/property[@name='Stacknumber' and @value='1']/@value">20</set>
+	</configs>

@@ -1,0 +1,246 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="streetLight">
+   			 <property name="CreativeMode" value="Player"/>
+   			 <property name="CustomIcon" value="streetLight01"/>
+  			 <property name="RuntimeSwitch" value="true"/>
+  			 <property name="HandleFace" value="Top"/>
+  			 <property name="Material" value="Mmetal_thin"/>
+  			 <property name="Shape" value="ModelEntity"/>
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="1"/>
+        <property name="resourceElectricParts" value="3"/>
+        <property name="resourceElectricParts" value="2"/>
+    </property>
+    <property name="TakeDelay" value="5"/>
+    <property name="Class" value="PoweredLight"/>
+    <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+    <property name="Model" value="Entities/Lighting/street_light01Prefab"/>
+    <property name="Light" value="2"/>
+    <property name="FilterTags" value="fdecor,felectrical"/>
+    <property name="EconomicValue" value="175"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+    <property name="ImposterDontBlock" value="true"/>
+</block>
+ 
+<block name="porchLight">
+    <property name="CreativeMode" value="Player"/>
+    <property name="RuntimeSwitch" value="true"/>
+    <property name="HandleFace" value="Top"/>
+    <property name="Material" value="Mmetal_thin"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="1"/>
+        <property name="resourceElectricParts" value="3"/>
+        <property name="resourceElectricParts" value="2"/>
+    </property>
+    <property name="TakeDelay" value="5"/>
+    <property name="Class" value="PoweredLight"/>
+    <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+    <property name="Light" value="0.3"/>
+    <property name="FilterTags" value="fdecor,felectrical"/>
+    <property name="EconomicValue" value="175"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+    <property name="ImposterDontBlock" value="true"/>
+        <property name="Model" value="Entities/Lighting/porchLight01Prefab"/>
+        <property name="CustomIcon" value="porchLight01"/>
+</block>
+ 
+<block name="brassPorchLight">
+    <property name="CreativeMode" value="Player"/>
+    <property name="RuntimeSwitch" value="true"/>
+    <property name="HandleFace" value="Top"/>
+    <property name="Material" value="Mmetal_thin"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="1"/>
+        <property name="resourceElectricParts" value="3"/>
+        <property name="resourceElectricParts" value="2"/>
+    </property>
+    <property name="TakeDelay" value="5"/>
+    <property name="Class" value="PoweredLight"/>
+    <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+    <property name="Light" value="0.3"/>
+    <property name="FilterTags" value="fdecor,felectrical"/>
+    <property name="EconomicValue" value="175"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+    <property name="ImposterDontBlock" value="true"/>
+        <property name="Model" value="Entities/Lighting/porchLight04BrassPrefab"/>
+        <property name="CustomIcon" value="porchLight04Brass"/>
+</block>
+ 
+<block name="lightBulb">
+    <property name="CreativeMode" value="Player"/>
+    <property name="RuntimeSwitch" value="true"/>
+    <property name="HandleFace" value="Top"/>
+    <property name="Material" value="Mmetal_thin"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="1"/>
+        <property name="resourceElectricParts" value="3"/>
+        <property name="resourceElectricParts" value="2"/>
+    </property>
+    <property name="TakeDelay" value="5"/>
+    <property name="Class" value="PoweredLight"/>
+    <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+    <property name="Light" value="0.2"/>
+    <property name="FilterTags" value="fdecor,felectrical"/>
+    <property name="EconomicValue" value="175"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="Model" value="Entities/Lighting/ceilingLight01Prefab"/>
+    <property name="CustomIcon" value="ceilingLight01"/>
+</block>
+ 
+<block name="domeLight">
+    <property name="CreativeMode" value="Player"/>
+    <property name="RuntimeSwitch" value="true"/>
+    <property name="HandleFace" value="Top"/>
+    <property name="Material" value="Mmetal_thin"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="1"/>
+        <property name="resourceElectricParts" value="3"/>
+        <property name="resourceElectricParts" value="2"/>
+    </property>
+    <property name="TakeDelay" value="5"/>
+    <property name="Class" value="PoweredLight"/>
+    <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+    <property name="Light" value="0.5"/>
+    <property name="FilterTags" value="fdecor,felectrical"/>
+    <property name="EconomicValue" value="175"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="Model" value="Entities/Lighting/ceilingLight02Prefab"/>
+    <property name="CustomIcon" value="ceilingLight02"/>
+</block>
+ 
+<block name="ceilingLightMetal">
+    <property name="CreativeMode" value="Player"/>
+    <property name="RuntimeSwitch" value="true"/>
+    <property name="HandleFace" value="Top"/>
+    <property name="Material" value="Mmetal_thin"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="1"/>
+        <property name="resourceElectricParts" value="3"/>
+        <property name="resourceElectricParts" value="2"/>
+    </property>
+    <property name="TakeDelay" value="5"/>
+    <property name="Class" value="PoweredLight"/>
+    <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+    <property name="Light" value="0.5"/>
+    <property name="FilterTags" value="fdecor,felectrical"/>
+    <property name="EconomicValue" value="175"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/>
+    <property name="CustomIcon" value="ceilingLight04"/>
+</block>
+ 
+<block name="ceilingLightGlass">
+    <property name="CreativeMode" value="Player"/>
+    <property name="RuntimeSwitch" value="true"/>
+    <property name="HandleFace" value="Top"/>
+    <property name="Material" value="Mmetal_thin"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="1"/>
+        <property name="resourceElectricParts" value="3"/>
+        <property name="resourceElectricParts" value="2"/>
+    </property>
+    <property name="TakeDelay" value="5"/>
+    <property name="Class" value="PoweredLight"/>
+    <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+    <property name="Light" value="0.5"/>
+    <property name="FilterTags" value="fdecor,felectrical"/>
+    <property name="EconomicValue" value="175"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/>
+    <property name="CustomIcon" value="ceilingLight05"/>
+</block>
+ 
+<block name="ceilingLightStrip">
+    <property name="CreativeMode" value="Player"/>
+    <property name="RuntimeSwitch" value="true"/>
+    <property name="HandleFace" value="Top"/>
+    <property name="Material" value="Mmetal_thin"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="1"/>
+        <property name="resourceElectricParts" value="3"/>
+        <property name="resourceElectricParts" value="2"/>
+    </property>
+    <property name="TakeDelay" value="5"/>
+    <property name="Class" value="PoweredLight"/>
+    <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+    <property name="Light" value="0.7"/>
+    <property name="FilterTags" value="fdecor,felectrical"/>
+    <property name="EconomicValue" value="175"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="Model" value="Entities/Lighting/ceilingLight07Prefab"/>
+    <property name="CustomIcon" value="ceilingLight07"/>
+</block>
+ 
+<block name="flashLightProp">
+    <property name="CreativeMode" value="Player"/>
+    <property name="RuntimeSwitch" value="true"/>
+    <property name="HandleFace" value="Top"/>
+    <property name="Material" value="Mmetal_thin"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="1"/>
+        <property name="resourceElectricParts" value="3"/>
+        <property name="resourceElectricParts" value="2"/>
+    </property>
+    <property name="TakeDelay" value="5"/>
+    <property name="Class" value="PoweredLight"/>
+    <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+    <property name="Light" value="0.5"/>
+    <property name="FilterTags" value="fdecor,felectrical"/>
+    <property name="EconomicValue" value="175"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="Model" value="Entities/Lighting/flashlightDecorPrefab"/>
+    <property name="CustomIcon" value="flashlightDecor"/>
+</block>
+</append>
+</configs>

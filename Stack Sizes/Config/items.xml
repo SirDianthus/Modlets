@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+	<configs>
+			<!-- AMMO -->
+		<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber' and @value='250']/@value">5000</set>
+		<set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Stacknumber' and @value='128']/@value">5000</set>
+		<set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber' and @value='250']/@value">5000</set>
+		<set xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='Stacknumber' and @value='250']/@value">5000</set>
+		<set xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='Stacknumber' and @value='250']/@value">5000</set>
+		<set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber' and @value='1000']/@value">50000</set>
+		<set xpath="/items/item[@name='ammo9mmBullet']/property[@name='Stacknumber' and @value='500']/@value">5000</set>
+			<!-- MEDICAL -->
+		<set xpath="/items/item[@name='medicalFirstAidKit']/property[@name='Stacknumber' and @value='5']/@value">50</set>
+		<set xpath="/items/item[@name='medicalSplint']/property[@name='Stacknumber' and @value='10']/@value">500</set>
+		<set xpath="/items/item[@name='medicalSnowberryExtract']/property[@name='Stacknumber' and @value='15']/@value">500</set>
+		<set xpath="/items/item[@name='drugVitamins']/property[@name='Stacknumber' and @value='50']/@value">500</set>
+		<set xpath="/items/item[@name='drugPainkillers']/property[@name='Stacknumber' and @value='50']/@value">5000</set>
+		<set xpath="/items/item[@name='drugHerbalAntibiotics']/property[@name='Stacknumber' and @value='50']/@value">5000</set>
+		<set xpath="/items/item[@name='drugAntibiotics']/property[@name='Stacknumber' and @value='50']/@value">500</set>
+			<!-- FOOD -->
+		<set xpath="/items/item[@name='foodHoney']/property[@name='Stacknumber' and @value='10']/@value">5000</set>
+		<set xpath="/items/item[@name='foodMoldyBread']/property[@name='Stacknumber' and @value='50']/@value">5000</set>
+		<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber' and @value='50']/@value">5000</set>
+		<set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber' and @value='250']/@value">5000</set>
+		<set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber' and @value='100']/@value">5000</set>
+		<set xpath="/items/item[@name='foodCanBeef']/property[@name='Stacknumber' and @value='50']/@value">5000</set>
+		<set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber' and @value='500']/@value">5000</set>
+		<set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber' and @value='500']/@value">5000</set>
+		<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber' and @value='15']/@value">5000</set>
+		<set xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='Stacknumber' and @value='15']/@value">5000</set>
+		<set xpath="/items/item[@name='drinkJarGoldenRodTea']/property[@name='Stacknumber' and @value='15']/@value">5000</set>
+		<set xpath="/items/item[@name='drinkJarRedTea']/property[@name='Stacknumber' and @value='15']/@value">5000</set>
+		<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber' and @value='15']/@value">5000</set>
+		<set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber' and @value='15']/@value">5000</set>
+		<set xpath="/items/item[@name='drinkJarBeer']/property[@name='Stacknumber' and @value='15']/@value">5000</set>
+		<set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber' and @value='15']/@value">5000</set>
+			<!-- RESOURCES -->
+		<set xpath="/items/item[@name='resourceWood']/property[@name='Stacknumber' and @value='6000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceRockSmall']/property[@name='Stacknumber' and @value='6000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceCrushedSand']/property[@name='Stacknumber' and @value='6000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceIronFragment']/property[@name='Stacknumber' and @value='1200']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceScrapIron']/property[@name='Stacknumber' and @value='6000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceForgedIron']/property[@name='Stacknumber' and @value='500']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceMetalPipe']/property[@name='Stacknumber' and @value='500']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceForgedSteel']/property[@name='Stacknumber' and @value='500']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceOilShale']/property[@name='Stacknumber' and @value='6000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceScrapPolymers']/property[@name='Stacknumber' and @value='1000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceFemur']/property[@name='Stacknumber' and @value='250']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceLeather']/property[@name='Stacknumber' and @value='250']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceAnimalFat']/property[@name='Stacknumber' and @value='500']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceTallow']/property[@name='Stacknumber' and @value='500']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceTestosteroneExtract']/property[@name='Stacknumber' and @value='10']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceScrapBrass']/property[@name='Stacknumber' and @value='6000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceScrapLead']/property[@name='Stacknumber' and @value='6000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber' and @value='6000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceCloth']/property[@name='Stacknumber' and @value='250']/@value">24000</set>
+		<set xpath="/items/item[@name='resourcePaper']/property[@name='Stacknumber' and @value='250']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceFeather']/property[@name='Stacknumber' and @value='250']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceCoal']/property[@name='Stacknumber' and @value='6000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourcePotassiumNitratePowder']/property[@name='Stacknumber' and @value='6000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceGunPowder']/property[@name='Stacknumber' and @value='1000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber' and @value='50']/@value">1000</set>
+		<set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber' and @value='5']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceCobblestones']/property[@name='Stacknumber' and @value='1000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceCement']/property[@name='Stacknumber' and @value='1000']/@value">24000</set>
+		<set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber' and @value='1000']/@value">24000</set>
+			<!-- TOOLS AND FORGES -->
+		<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber' and @value='1']/@value">10</set>
+		<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber' and @value='20000']/@value">1000000</set>
+		<set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber' and @value='1']/@value">10</set>
+		<set xpath="/items/item[@name='toolAndDieSet']/property[@name='Stacknumber' and @value='1']/@value">10</set>
+		<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber' and @value='1']/@value">10</set>
+		<set xpath="/items/item[@name='meleeToolWireTool']/property[@name='Stacknumber' and @value='1']/@value">20</set>
+		<set xpath="/items/item[@name='meleeToolPaintTool']/property[@name='Stacknumber' and @value='1']/@value">20</set>
+		<set xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber' and @value='50']/@value">5000</set>
+		<set xpath="/items/item[@name='ammo9mmBullet']/property[@name='Stacknumber' and @value='500']/@value">5000</set>
+		<append xpath="/items/item[@name='unlockBookMaster']">
+			<property name="Stacknumber" value="500"/>
+		</append>
+	</configs>

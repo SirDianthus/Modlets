@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+	<configs>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceScrapLead']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceArrowHeadSteelAP']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceArrowHeadIron']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='books']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceFemur']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceCloth']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceFeather']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='glassCTRSheet']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceWood']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceNail']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceGlue']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='drinkJarEmpty']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='drinkCanEmpty']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceGunPowder']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='beverages']/item[@name='drinkJarEmpty']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='cupboard']/item[@name='drinkJarEmpty']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='cupboard']/item[@name='drinkCanEmpty']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='cupboard']/item[@name='resourcePotassiumNitratePowder']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='commonBooks']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='rareBooks']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootgroup[@name='books']/item[@name='resourcePaper']"/>
+
+
+			<remove xpath="/lootcontainers/lootcontainer[@id='8']/item[@name='drinkCanEmpty']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='8']/item[@name='drinkJarEmpty']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='8']/item[@name='resourcePotassiumNitratePowder']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='8']/item[@name='resourceScrapLead']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='13']/item[@name='resourceCloth']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='14']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='18']/item[@name='resourceCloth']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='21']/item[@name='drinkJarEmpty']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='35']/item[@name='drinkCanEmpty']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='35']/item[@name='drinkJarEmpty']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='43']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='43']/item[@name='resourceGunPowder']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='44']/item[@name='resourcePaper' and @count='5,10']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='44']/item[@name='resourcePaper' and @count='5,10' and @prob='0.86']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='47']/item[@name='drinkJarEmpty']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='47']/item[@name='drinkCanEmpty']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='48']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='49']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='55']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='57']/item[@name='resourceCoal']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='59']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='88']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='88']/item[@name='resourceScrapIron']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='88']/item[@name='resourceFrameBlock']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='88']/item[@name='resourceWood']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='89']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='90']/item[@name='resourcePaper']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='90']/item[@name='resourceCloth']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='90']/item[@name='resourceLeather']"/>
+			<remove xpath="/lootcontainers/lootcontainer[@id='90']/item[@name='resourceScrapIron']"/>
+		</configs>
