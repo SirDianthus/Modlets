@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configs>
+<append xpath="/recipes">
+<recipe name="Katana" count="1" workstation="workbench">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceLeather" count="50"/>
+</recipe>
+</append>
+</configs>
