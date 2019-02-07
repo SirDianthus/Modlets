@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<configs>
+<append xpath="/recipes">
+<!-- Black -->
+<recipe name="Chess BBishop" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess BKing" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess BKnight" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess BPawn" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess BQueen" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess BRook" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<!-- White -->
+
+<recipe name="Chess WBishop" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess WKing" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess WKnight" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess WPawn" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess WQueen" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess WRook" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+<!-- Checkers -->
+<recipe name="CheckersB" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="CheckersR" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="CheckersBKing" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="CheckersRKing" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+</append>
+</configs>

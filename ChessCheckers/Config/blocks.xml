@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<configs>
+<append xpath="/blocks">
+<!-- Black -->
+<block name="Chess BBishop">
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="BBishop"/>
+	<property name="CanPickup" value="true"/>
+	<property name="Material" value="MwoodReinforced"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Model" value="#@modfolder:Resources/BBishop.unity3d?BBishopPrefab" param1="main_mesh"/>
+	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="FilterTags" value="fbuilding,fwood"/>
+</block>
+
+<block name="Chess BKing">
+	<property name="CustomIcon" value="BKing"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/BKing.unity3d?BKingPrefab" param1="main_mesh"/>
+</block>
+
+<block name="Chess BKnight">
+	<property name="CustomIcon" value="BKnight"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/BKnight.unity3d?BKnightPrefab" param1="main_mesh"/>
+</block>
+
+<block name="Chess BPawn">
+	<property name="CustomIcon" value="BPawn"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/BPawn.unity3d?BPawnPrefab" param1="main_mesh"/>
+</block>
+
+<block name="Chess BQueen">
+	<property name="CustomIcon" value="BQueen"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/BQueen.unity3d?BQueenPrefab" param1="main_mesh"/>
+</block>
+
+<block name="Chess BRook">
+	<property name="CustomIcon" value="BRook"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/BRook.unity3d?BRookPrefab" param1="main_mesh"/>
+</block>
+<!-- White -->
+<block name="Chess WBishop">
+	<property name="CustomIcon" value="WBishop"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/WBishop.unity3d?WBishopPrefab" param1="main_mesh"/>
+</block>
+
+<block name="Chess WKing">
+	<property name="CustomIcon" value="WKing"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/WKing.unity3d?WKingPrefab" param1="main_mesh"/>
+</block>
+
+<block name="Chess WKnight">
+	<property name="CustomIcon" value="WKnight"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/WKnight.unity3d?WKnightPrefab" param1="main_mesh"/>
+</block>
+
+<block name="Chess WPawn">
+	<property name="CustomIcon" value="WPawn"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/WPawn.unity3d?WPawnPrefab" param1="main_mesh"/>
+</block>
+
+<block name="Chess WQueen">
+	<property name="CustomIcon" value="WQueen"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/WQueen.unity3d?WQueenPrefab" param1="main_mesh"/>
+</block>
+
+<block name="Chess WRook">
+	<property name="CustomIcon" value="WRook"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/WRook.unity3d?WRookPrefab" param1="main_mesh"/>
+</block>
+<!-- Checkers -->
+<block name="CheckersB">
+	<property name="CustomIcon" value="CheckerB"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/CheckersB.unity3d?CheckersBPrefab" param1="main_mesh"/>
+</block>
+
+<block name="CheckersR">
+	<property name="CustomIcon" value="CheckerR"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/CheckersR.unity3d?CheckersRPrefab" param1="main_mesh"/>
+</block>
+
+<block name="CheckersBKing">
+	<property name="CustomIcon" value="CheckerBKing"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/CheckersBKing.unity3d?CheckersBKingPrefab" param1="main_mesh"/>
+</block>
+
+<block name="CheckersRKing">
+	<property name="CustomIcon" value="CheckerRKing"/>
+	<property name="Extends" value="Chess BBishop"/>
+	<property name="Model" value="#@modfolder:Resources/CheckersRKing.unity3d?CheckersRKingPrefab" param1="main_mesh"/>
+</block>
+</append>
+</configs>
