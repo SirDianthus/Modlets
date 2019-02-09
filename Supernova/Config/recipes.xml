@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configs>
+<append xpath="/recipes">
+  <recipe name="Supernova" count="1">
+    <ingredient name="duct_tape" count="1"/>
+    <ingredient name="rocket" count="7"/>
+    <ingredient name="gas_barrel" count="1"/>
+  </recipe>
+</append>
+</configs>

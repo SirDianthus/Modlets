@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<configs>
+<append xpath="/blocks">
+
+<block name="Supernova">
+  <property name="CreativeMode" value="Player"/>
+  <property name="Material" value="Mmetal_thin"/>
+  <property name="Shape" value="ModelEntity"/>
+  <property class="RepairItems">
+    <property name="tnt" count="1"/>
+  </property>
+  <property name="TakeDelay" value="30"/>
+  <property name="Class" value="PoweredLight"/>
+  <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+  <property name="Light" value="100"/>
+  <property name="FilterTags" value="fdecor,felectrical"/>
+  <property name="EconomicValue" value="1750"/>
+  <property name="Collide" value="melee,bullet,arrow,rocket"/>
+  <property name="ImposterDontBlock" value="true"/>
+  <property name="Model" value="#@modfolder:Resources/supernova.unity3d?supernovaPrefab" param1="main_mesh"/>
+  <property name="CustomIcon" value="ceilingLight01"/>
+
+</append>
+</configs>
