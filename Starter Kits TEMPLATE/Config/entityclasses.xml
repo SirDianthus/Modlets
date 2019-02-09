@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<configs>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival' and @value='drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,keystoneBlock']/@value">Edit,me,here,just,like,this,with,the,items</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP' and @value='drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,keystoneBlock']/@value">you want to put in. you have a max of 7 actually. If you go over the max</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP' and @value='drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,keystoneBlock']/@value">your game will glitch that item into an invisible slot. Can't access it, but it'll absorb more of the same item. so like a med kit, if you give yourself 1 on the 8th item you pick, it won't spawn, and all medkits you get in the future will vanish.</set>
+</configs>
