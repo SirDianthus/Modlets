@@ -2,6 +2,11 @@
 <configs>
 <append xpath="/recipes">
 <!-- Black -->
+
+<recipe name="Chess Board Black" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
 <recipe name="Chess BBishop" count="1">
 	<ingredient name="resourceWood" count="1"/>
 </recipe>
@@ -28,6 +33,10 @@
 
 <!-- White -->
 
+<recipe name="Chess Board White" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
 <recipe name="Chess WBishop" count="1">
 	<ingredient name="resourceWood" count="1"/>
 </recipe>
@@ -52,6 +61,11 @@
 	<ingredient name="resourceWood" count="1"/>
 </recipe>
 <!-- Checkers -->
+
+<recipe name="Checkers Board Red" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
 <recipe name="CheckersB" count="1">
 	<ingredient name="resourceWood" count="1"/>
 </recipe>
