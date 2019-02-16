@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <configs>
 <append xpath="/recipes">
+
+<!-- Misc -->
+<recipe name="Chess Board Edge" count="32">
+	<ingrediet name="resourceWood" count="1"/>
+</recipe>
+
+<recipe name="Chess Board Corner" count="4">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
 <!-- Black -->
 
 <recipe name="Chess Board Black" count="1">

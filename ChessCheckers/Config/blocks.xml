@@ -17,14 +17,13 @@
 	<drop event="Destroy" name="resourceWood" count="1,3"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 	<property name="FilterTags" value="fbuilding,fwood"/>
-	<property name="Model" value="#@modfolder:Resources/BCB.unity3d?BCBPrefab" param1="main_mesh"/>
+	<property name="Model" value="#@modfolder:Resources/CBB.unity3d?CBBprefab" param1="main_mesh"/>
 </block>
 
 <block name="ChesskersBoardMaster">
 	<property name="Extends" value="woodFrameMaster"/>
-	<property name="StabilitySupport" value="true"/> <!-- allow place pieces on top i hope -->
-	<property name="IsTerrainDecoration" value="false"/> <!-- hopefully allows placingnext to eachother -->
 	<property name="CanPickup" value="false"/>
+	<property name="Model" value="#@modfolder:Resources.CBC.unity3d.CBCprefab" param1="main_mesh"/>
 </block>
 
 <!-- Misc blocks -->
