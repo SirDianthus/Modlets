@@ -19,6 +19,6 @@
   <property name="ImposterDontBlock" value="true"/>
   <property name="Model" value="#@modfolder:Resources/supernova.unity3d?supernovaPrefab" param1="main_mesh"/>
   <property name="CustomIcon" value="ceilingLight01"/>
-
+</block>
 </append>
 </configs>

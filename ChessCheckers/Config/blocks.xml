@@ -17,18 +17,35 @@
 	<drop event="Destroy" name="resourceWood" count="1,3"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 	<property name="FilterTags" value="fbuilding,fwood"/>
+	<property name="Model" value="#@modfolder:Resources/BCB.unity3d?BCBPrefab" param1="main_mesh"/>
 </block>
 
 <block name="ChesskersBoardMaster">
-	<property name="Extends" value="ChesskersMaster"/>
+	<property name="Extends" value="woodFrameMaster"/>
+	<property name="StabilitySupport" value="true"/> <!-- allow place pieces on top i hope -->
+	<property name="IsTerrainDecoration" value="false"/> <!-- hopefully allows placingnext to eachother -->
 	<property name="CanPickup" value="false"/>
+</block>
+
+<!-- Misc blocks -->
+
+<block name="Chess Board Edge">
+	<property name="Extends" value="ChesskersboardMaster"/>
+	<property name="CustomIcon" value="edgeIcon"/>
+	<property name="Model" value="#$modfolder:Resources/CBE.unity3d?CBEprefab" param1="main_mesh"/>
+</block>
+
+<block name="Chess Board Corner">
+	<property name="Extends" value="ChesskersboardMaster"/>
+	<property name="CustomIcon" value="edgeIcon"/>
+	<property name="Model" value="#$modfolder:Resources/CBC.unity3d?CBCprefab" param1="main_mesh"/>
 </block>
 
 <!-- Black -->
 <block name="Chess Board Black">
 	<property name="Extends" value="ChesskersBoardMaster"/>
-	<property name="CustomIcon" value="BCB"/>
-	<property name="Model" value="#@modfolder:Resources/BCB.unity3d?BCBPrefab" param1="main_mesh"/>
+	<property name="CustomIcon" value="blackIcon"/>
+	<property name="Model" value="#@modfolder:Resources/CBB.unity3d?CBBprefab" param1="main_mesh"/>
 </block>
 <block name="Chess BBishop">
 	<property name="CustomIcon" value="BBishop"/>
@@ -69,8 +86,8 @@
 
 <block name="Chess Board White">
 	<property name="Extends" value="ChesskersBoardMaster"/>
-	<property name="CustomIcon" value="WCB"/>
-	<property name="Model" value="#@modfolder:Resources/WCB.unity3d?WCBPrefab" param1="main_mesh"/>
+	<property name="CustomIcon" value="whiteIcon"/>
+	<property name="Model" value="#@modfolder:Resources/CBW.unity3d?CBWprefab" param1="main_mesh"/>
 </block>
 
 <block name="Chess WBishop">
@@ -112,8 +129,8 @@
 
 <block name="Checkers Board Red">
 	<property name="Extends" value="ChesskersBoardMaster"/>
-	<property name="CustomIcon" value="RCB"/>
-	<property name="Model" value="#@modfolder:Resources/RCB.unity3d?RCBPrefab" param1="main_mesh"/>
+	<property name="CustomIcon" value="redIcon"/>
+	<property name="Model" value="#@modfolder:Resources/CBR.unity3d?CBRprefab" param1="main_mesh"/>
 </block>
 
 <block name="CheckersB">
