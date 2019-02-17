@@ -3,19 +3,11 @@
 <append xpath="/recipes">
 
 <!-- Misc -->
-<recipe name="Chess Board Edge" count="32">
+<recipe name="Playing Board" count="1">
 	<ingrediet name="resourceWood" count="1"/>
 </recipe>
 
-<recipe name="Chess Board Corner" count="4">
-	<ingredient name="resourceWood" count="1"/>
-</recipe>
-
 <!-- Black -->
-
-<recipe name="Chess Board Black" count="1">
-	<ingredient name="resourceWood" count="1"/>
-</recipe>
 
 <recipe name="Chess BBishop" count="1">
 	<ingredient name="resourceWood" count="1"/>
@@ -43,10 +35,6 @@
 
 <!-- White -->
 
-<recipe name="Chess Board White" count="1">
-	<ingredient name="resourceWood" count="1"/>
-</recipe>
-
 <recipe name="Chess WBishop" count="1">
 	<ingredient name="resourceWood" count="1"/>
 </recipe>
@@ -72,9 +60,6 @@
 </recipe>
 <!-- Checkers -->
 
-<recipe name="Checkers Board Red" count="1">
-	<ingredient name="resourceWood" count="1"/>
-</recipe>
 
 <recipe name="CheckersB" count="1">
 	<ingredient name="resourceWood" count="1"/>
